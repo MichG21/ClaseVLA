@@ -40,19 +40,19 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link active" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">About</a>
+              <a class="nav-link active" href="#">Traditions</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#">Videos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Traditions</a>
+              <a class="nav-link active" href="mypage.html">My page</a>
             </li>
           </ul>
         </div>
@@ -129,57 +129,57 @@
     <!--carousel end-->
 
     <!--Tajetas start-->
-    <section class="containes">
+    <section class="container my-5">
       <div class="row">
-        <div class="col-md-3 border border-danger text-center">
+        <div class="col-md-3 border border-danger">
           <div class="card" style="width: 18rem">
-            <img src="src/img/nav1.jpg" class="card-img-top" alt="..." />
+            <img src="src/img/nav1.jpg" class="card-img-top" alt="nav1" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Reinders</h5>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">About</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 border border-danger">
+          <div class="card" style="width: 18rem">
+            <img src="src/img/navi2.jpg" class="card-img-top" alt="nav2" />
+            <div class="card-body">
+              <h5 class="card-title">Elfs</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">About</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 border border-danger">
+          <div class="card" style="width: 18rem">
+            <img src="src/img/navi3.jpg" class="card-img-top" alt="nav3" />
+            <div class="card-body">
+              <h5 class="card-title">Santa</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">About</a>
             </div>
           </div>
         </div>
         <div class="col-md-3 border border-danger text-center">
           <div class="card" style="width: 18rem">
-            <img src="src/img/navi2.jpg" class="card-img-top" alt="..." />
+            <img src="src/img/navi4.jpg" class="card-img-top" alt="nav4" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Christmas tree</h5>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 border border-danger text-center">
-          <div class="card" style="width: 18rem">
-            <img src="src/img/navi3.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 border border-danger text-center">
-          <div class="card" style="width: 18rem">
-            <img src="src/img/navi4.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">About</a>
             </div>
           </div>
         </div>
@@ -187,13 +187,107 @@
     </section>
     <!--Tajetas end-->
 
-    <!--Footer start-->
-    <footer>
-      <div class="row">
-        <div class="col">
-          <p>Copyright &copy; 2025 Michelle García</p>
+    <!-- Acordión Recetas start -->
+    <div class="container my-5">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Recipe 1: Christmas cookies
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Ingredients and preparation for delicious Christmas cookies.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Recipe 2: Eggnog
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Ingredients and preparation for a delicious homemade eggnog
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+    <!-- Acordión Recetas end -->
+
+    <!-- Formulario start -->
+    <div class="container my-5">
+      <h3>Contact form</h3>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="3"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-danger">Send</button>
+      </form>
+    </div>
+    <!-- Formulario end -->
+
+    <!-- Mapa start -->
+    <div class="container my-5">
+      <h3>Ubicación de la Casa de Santa Claus</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2466.637054587013!2d25.855481315809072!3d66.56204254430204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46819132e8c99999%3A0xd2fa2e697cdbb1f1!2sSanta%20Claus%20Village!5e0!3m2!1ses!2sfi!4v1642404420423!5m2!1ses!2sfi"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+    <!-- Mapa end-->
+
+    <!--Footer start-->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>
+        &copy; 2025
+        <a href="21michelle91@gmail.com" class="text-white">Michelle García</a>
+      </p>
     </footer>
     <!--footer end-->
 
